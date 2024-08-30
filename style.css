@@ -1,0 +1,58 @@
+*{
+    font-family: Georgia;
+}
+
+header {
+   
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 1rem; 
+    background-color: transparent;
+
+}
+header img{
+    height:15vh ;
+    width: 30%;
+}
+.navigation  {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+
+
+}
+.navigation ul li{
+   gap: 10px;
+display: inline;
+margin-left: 2rem;
+font-size: 20px;
+margin-right: 2rem;
+
+
+}
+  .form-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #ddd;
+            z-index: 1000;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .form-container .btn-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+    
+
+
